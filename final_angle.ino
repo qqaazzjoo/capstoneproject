@@ -74,15 +74,6 @@ void loop() {
 }
 
 
-//  Serial.print("Angle Gyro X:");
-//  Serial.print(angleGyX);
-//  Serial.print("\t\t Angle Gyro y:");
-//  Serial.print(angleGyY);  
-//  Serial.print("\t\t Angle Gyro Z:");
-//  Serial.println(angleGyZ);  
-//  delay(20);
-
-
 void initSensor() {
   Wire.begin();
   Wire.beginTransmission(MPU_ADDR);   // I2C 통신용 어드레스(주소)
